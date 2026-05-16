@@ -64,14 +64,14 @@ plugins/js/                            Published JavaScript plugin
 
 ## Published plugins
 
-| Plugin | Status | Notes |
-| --- | --- | --- |
-| `dotnet` | Available | Skills for WPF, WinUI 3, and .NET MAUI with ArcGIS Maps SDK for .NET |
-| `swift` | Available | Skills for SwiftUI and UIKit apps using ArcGIS Maps SDK for Swift |
-| `kotlin` | Available | Skills for Android apps using ArcGIS Maps SDK for Kotlin |
-| `flutter` | Available | Skills for Flutter apps using ArcGIS Maps SDK for Flutter |
-| `qt` | Available | Skills for Qt Quick/QML and Widgets apps using ArcGIS Maps SDK for Qt |
-| `js` | Available | Skills for web apps, frameworks, bundlers, and map components using ArcGIS Maps SDK for JavaScript |
+| Plugin | Notes |
+| --- | --- |
+| `dotnet` | Skills for WPF, WinUI 3, and .NET MAUI with ArcGIS Maps SDK for .NET |
+| `swift` | Skills for SwiftUI and UIKit apps using ArcGIS Maps SDK for Swift |
+| `kotlin` | Skills for Android apps using ArcGIS Maps SDK for Kotlin |
+| `flutter` | Skills for Flutter apps using ArcGIS Maps SDK for Flutter |
+| `qt` | Skills for Qt Quick/QML and Widgets apps using ArcGIS Maps SDK for Qt |
+| `js` | Skills for web apps, frameworks, bundlers, and map components using ArcGIS Maps SDK for JavaScript |
 
 ## Plugin details
 
