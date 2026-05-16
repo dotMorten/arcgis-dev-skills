@@ -2,7 +2,7 @@
 
 This repository is structured as a **multi-plugin marketplace** so it can grow into a family of agent plugins for different ArcGIS Maps SDKs.
 
-Today it publishes the **.NET** plugin. The repository layout also reserves space for future plugins targeting **Swift**, **Kotlin**, **Flutter**, and **Qt**.
+Today it publishes the **.NET** and **Swift** plugins. The repository layout also reserves space for future plugins targeting **Kotlin**, **Flutter**, and **Qt**.
 
 It now includes marketplace manifests for:
 
@@ -55,7 +55,7 @@ The repository now exposes a Codex-compatible marketplace manifest under `.agent
 .claude-plugin/marketplace.json        Claude marketplace manifest
 .agents/plugins/marketplace.json       Codex/OpenAI Agents marketplace manifest
 plugins/dotnet/                        Published .NET plugin
-plugins/swift/                         Reserved for future Swift plugin
+plugins/swift/                         Published Swift plugin
 plugins/kotlin/                        Reserved for future Kotlin plugin
 plugins/flutter/                       Reserved for future Flutter plugin
 plugins/qt/                            Reserved for future Qt plugin
@@ -66,14 +66,16 @@ plugins/qt/                            Reserved for future Qt plugin
 | Plugin | Status | Notes |
 | --- | --- | --- |
 | `dotnet` | Available | Skills for WPF, WinUI 3, and .NET MAUI with ArcGIS Maps SDK for .NET |
-| `swift` | Planned | Placeholder directory only |
+| `swift` | Available | Skills for SwiftUI and UIKit apps using ArcGIS Maps SDK for Swift |
 | `kotlin` | Planned | Placeholder directory only |
 | `flutter` | Planned | Placeholder directory only |
 | `qt` | Planned | Placeholder directory only |
 
-## .NET plugin
+## Plugin details
 
-The current plugin lives at `plugins/dotnet`.
+### .NET plugin
+
+The .NET plugin lives at `plugins/dotnet`.
 
 Included skills:
 
@@ -84,3 +86,17 @@ Included skills:
 - `arcgis-dotnet-troubleshooting`
 
 See `plugins/dotnet/README.md` for plugin-specific guidance and example prompts.
+
+### Swift plugin
+
+The Swift plugin lives at `plugins/swift`.
+
+Included skills:
+
+- `arcgis-swift-solution-setup`
+- `arcgis-swift-map-ui`
+- `arcgis-swift-auth-licensing`
+- `arcgis-swift-offline-workflows`
+- `arcgis-swift-troubleshooting`
+
+See `plugins/swift/README.md` for plugin-specific guidance and example prompts.

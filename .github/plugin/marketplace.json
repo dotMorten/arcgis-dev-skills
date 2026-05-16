@@ -15,6 +15,14 @@
       "license": "MIT",
       "homepage": "https://developers.arcgis.com/net/",
       "source": "./plugins/dotnet"
+    },
+    {
+      "name": "swift",
+      "description": "Agent skills for ArcGIS Maps SDK for Swift setup, SwiftUI and UIKit map UI work, auth, offline workflows, and troubleshooting.",
+      "version": "0.1.0",
+      "license": "MIT",
+      "homepage": "https://developers.arcgis.com/swift/",
+      "source": "./plugins/swift"
     }
   ]
 }

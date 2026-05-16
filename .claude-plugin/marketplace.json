@@ -25,6 +25,27 @@
       },
       "homepage": "https://developers.arcgis.com/net/",
       "license": "MIT"
+    },
+    {
+      "name": "swift",
+      "description": "Agent skills for ArcGIS Maps SDK for Swift setup, SwiftUI and UIKit map UI work, auth, offline workflows, and troubleshooting.",
+      "version": "0.1.0",
+      "source": "./plugins/swift",
+      "category": "developer-tools",
+      "tags": [
+        "arcgis",
+        "swift",
+        "swiftui",
+        "ios",
+        "mac-catalyst",
+        "visionos",
+        "gis"
+      ],
+      "author": {
+        "name": "Copilot"
+      },
+      "homepage": "https://developers.arcgis.com/swift/",
+      "license": "MIT"
     }
   ]
 }
