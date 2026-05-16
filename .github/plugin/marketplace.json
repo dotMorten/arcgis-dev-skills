@@ -39,6 +39,14 @@
       "license": "MIT",
       "homepage": "https://developers.arcgis.com/qt/",
       "source": "./plugins/qt"
+    },
+    {
+      "name": "flutter",
+      "description": "Agent skills for ArcGIS Maps SDK for Flutter setup, widget map UI work, auth, offline workflows, and troubleshooting.",
+      "version": "0.1.0",
+      "license": "MIT",
+      "homepage": "https://developers.arcgis.com/flutter/",
+      "source": "./plugins/flutter"
     }
   ]
 }

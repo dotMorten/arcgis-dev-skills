@@ -2,7 +2,7 @@
 
 This repository is structured as a **multi-plugin marketplace** so it can grow into a family of agent plugins for different ArcGIS Maps SDKs.
 
-Today it publishes the **.NET**, **Swift**, **Kotlin**, and **Qt** plugins. The repository layout also reserves space for a future **Flutter** plugin.
+Today it publishes the **.NET**, **Swift**, **Kotlin**, **Qt**, and **Flutter** plugins.
 
 It now includes marketplace manifests for:
 
@@ -57,7 +57,7 @@ The repository now exposes a Codex-compatible marketplace manifest under `.agent
 plugins/dotnet/                        Published .NET plugin
 plugins/swift/                         Published Swift plugin
 plugins/kotlin/                        Published Kotlin plugin
-plugins/flutter/                       Reserved for future Flutter plugin
+plugins/flutter/                       Published Flutter plugin
 plugins/qt/                            Published Qt plugin
 ```
 
@@ -68,7 +68,7 @@ plugins/qt/                            Published Qt plugin
 | `dotnet` | Available | Skills for WPF, WinUI 3, and .NET MAUI with ArcGIS Maps SDK for .NET |
 | `swift` | Available | Skills for SwiftUI and UIKit apps using ArcGIS Maps SDK for Swift |
 | `kotlin` | Available | Skills for Android apps using ArcGIS Maps SDK for Kotlin |
-| `flutter` | Planned | Placeholder directory only |
+| `flutter` | Available | Skills for Flutter apps using ArcGIS Maps SDK for Flutter |
 | `qt` | Available | Skills for Qt Quick/QML and Widgets apps using ArcGIS Maps SDK for Qt |
 
 ## Plugin details
@@ -128,3 +128,17 @@ Included skills:
 - `arcgis-qt-troubleshooting`
 
 See `plugins/qt/README.md` for plugin-specific guidance and example prompts.
+
+### Flutter plugin
+
+The Flutter plugin lives at `plugins/flutter`.
+
+Included skills:
+
+- `arcgis-flutter-solution-setup`
+- `arcgis-flutter-map-ui`
+- `arcgis-flutter-auth-licensing`
+- `arcgis-flutter-offline-workflows`
+- `arcgis-flutter-troubleshooting`
+
+See `plugins/flutter/README.md` for plugin-specific guidance and example prompts.
