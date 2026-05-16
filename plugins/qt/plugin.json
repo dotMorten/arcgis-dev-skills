@@ -1,0 +1,21 @@
+{
+  "name": "qt",
+  "description": "Agent skills for ArcGIS Maps SDK for Qt setup, Qt Quick and Widgets map UI work, auth, offline workflows, and troubleshooting.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Copilot"
+  },
+  "license": "MIT",
+  "homepage": "https://developers.arcgis.com/qt/",
+  "keywords": [
+    "arcgis",
+    "qt",
+    "qml",
+    "qt-quick",
+    "qt-widgets",
+    "c++",
+    "gis"
+  ],
+  "category": "developer-productivity",
+  "skills": "skills/"
+}

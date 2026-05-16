@@ -2,7 +2,7 @@
 
 This repository is structured as a **multi-plugin marketplace** so it can grow into a family of agent plugins for different ArcGIS Maps SDKs.
 
-Today it publishes the **.NET**, **Swift**, and **Kotlin** plugins. The repository layout also reserves space for future plugins targeting **Flutter** and **Qt**.
+Today it publishes the **.NET**, **Swift**, **Kotlin**, and **Qt** plugins. The repository layout also reserves space for a future **Flutter** plugin.
 
 It now includes marketplace manifests for:
 
@@ -58,7 +58,7 @@ plugins/dotnet/                        Published .NET plugin
 plugins/swift/                         Published Swift plugin
 plugins/kotlin/                        Published Kotlin plugin
 plugins/flutter/                       Reserved for future Flutter plugin
-plugins/qt/                            Reserved for future Qt plugin
+plugins/qt/                            Published Qt plugin
 ```
 
 ## Published plugins
@@ -69,7 +69,7 @@ plugins/qt/                            Reserved for future Qt plugin
 | `swift` | Available | Skills for SwiftUI and UIKit apps using ArcGIS Maps SDK for Swift |
 | `kotlin` | Available | Skills for Android apps using ArcGIS Maps SDK for Kotlin |
 | `flutter` | Planned | Placeholder directory only |
-| `qt` | Planned | Placeholder directory only |
+| `qt` | Available | Skills for Qt Quick/QML and Widgets apps using ArcGIS Maps SDK for Qt |
 
 ## Plugin details
 
@@ -114,3 +114,17 @@ Included skills:
 - `arcgis-kotlin-troubleshooting`
 
 See `plugins/kotlin/README.md` for plugin-specific guidance and example prompts.
+
+### Qt plugin
+
+The Qt plugin lives at `plugins/qt`.
+
+Included skills:
+
+- `arcgis-qt-solution-setup`
+- `arcgis-qt-map-ui`
+- `arcgis-qt-auth-licensing`
+- `arcgis-qt-offline-workflows`
+- `arcgis-qt-troubleshooting`
+
+See `plugins/qt/README.md` for plugin-specific guidance and example prompts.

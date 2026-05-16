@@ -31,6 +31,14 @@
       "license": "MIT",
       "homepage": "https://developers.arcgis.com/kotlin/",
       "source": "./plugins/kotlin"
+    },
+    {
+      "name": "qt",
+      "description": "Agent skills for ArcGIS Maps SDK for Qt setup, Qt Quick and Widgets map UI work, auth, offline workflows, and troubleshooting.",
+      "version": "0.1.0",
+      "license": "MIT",
+      "homepage": "https://developers.arcgis.com/qt/",
+      "source": "./plugins/qt"
     }
   ]
 }
