@@ -28,14 +28,14 @@ From a local checkout of the marketplace repo:
 
 ```powershell
 copilot plugin marketplace add .
-copilot plugin install arcgis-maps-sdk-dotnet@arcgis-maps-sdk-plugins
+copilot plugin install dotnet@arcgis-maps-sdk-plugins
 ```
 
 From a GitHub repository:
 
 ```powershell
 copilot plugin marketplace add OWNER/REPO
-copilot plugin install arcgis-maps-sdk-dotnet@arcgis-maps-sdk-plugins
+copilot plugin install dotnet@arcgis-maps-sdk-plugins
 ```
 
 ### Claude
@@ -44,14 +44,14 @@ From a local checkout of the marketplace repo:
 
 ```powershell
 claude plugin marketplace add .
-claude plugin install arcgis-maps-sdk-dotnet@arcgis-maps-sdk-plugins
+claude plugin install dotnet@arcgis-maps-sdk-plugins
 ```
 
 From a GitHub repository:
 
 ```powershell
 claude plugin marketplace add OWNER/REPO
-claude plugin install arcgis-maps-sdk-dotnet@arcgis-maps-sdk-plugins
+claude plugin install dotnet@arcgis-maps-sdk-plugins
 ```
 
 ### Codex
@@ -71,7 +71,7 @@ copilot plugin install .
 From a GitHub subdirectory:
 
 ```powershell
-copilot plugin install OWNER/REPO:plugins/arcgis-maps-sdk-dotnet
+copilot plugin install OWNER/REPO:plugins/dotnet
 ```
 
 ## Verify

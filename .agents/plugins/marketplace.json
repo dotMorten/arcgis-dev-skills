@@ -5,10 +5,10 @@
   },
   "plugins": [
     {
-      "name": "arcgis-maps-sdk-dotnet",
+      "name": "dotnet",
       "source": {
         "source": "local",
-        "path": "./plugins/arcgis-maps-sdk-dotnet"
+        "path": "./plugins/dotnet"
       },
       "policy": {
         "installation": "AVAILABLE",

@@ -7,10 +7,10 @@
   "version": "0.1.0",
   "plugins": [
     {
-      "name": "arcgis-maps-sdk-dotnet",
+      "name": "dotnet",
       "description": "Agent skills for ArcGIS Maps SDK for .NET setup, map UI work, auth, offline workflows, and troubleshooting.",
       "version": "0.1.0",
-      "source": "./plugins/arcgis-maps-sdk-dotnet",
+      "source": "./plugins/dotnet",
       "category": "developer-tools",
       "tags": [
         "arcgis",
