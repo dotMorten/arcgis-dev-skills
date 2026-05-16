@@ -2,7 +2,7 @@
 
 This repository is structured as a **multi-plugin marketplace** so it can grow into a family of agent plugins for different ArcGIS Maps SDKs.
 
-Today it publishes the **.NET** and **Swift** plugins. The repository layout also reserves space for future plugins targeting **Kotlin**, **Flutter**, and **Qt**.
+Today it publishes the **.NET**, **Swift**, and **Kotlin** plugins. The repository layout also reserves space for future plugins targeting **Flutter** and **Qt**.
 
 It now includes marketplace manifests for:
 
@@ -56,7 +56,7 @@ The repository now exposes a Codex-compatible marketplace manifest under `.agent
 .agents/plugins/marketplace.json       Codex/OpenAI Agents marketplace manifest
 plugins/dotnet/                        Published .NET plugin
 plugins/swift/                         Published Swift plugin
-plugins/kotlin/                        Reserved for future Kotlin plugin
+plugins/kotlin/                        Published Kotlin plugin
 plugins/flutter/                       Reserved for future Flutter plugin
 plugins/qt/                            Reserved for future Qt plugin
 ```
@@ -67,7 +67,7 @@ plugins/qt/                            Reserved for future Qt plugin
 | --- | --- | --- |
 | `dotnet` | Available | Skills for WPF, WinUI 3, and .NET MAUI with ArcGIS Maps SDK for .NET |
 | `swift` | Available | Skills for SwiftUI and UIKit apps using ArcGIS Maps SDK for Swift |
-| `kotlin` | Planned | Placeholder directory only |
+| `kotlin` | Available | Skills for Android apps using ArcGIS Maps SDK for Kotlin |
 | `flutter` | Planned | Placeholder directory only |
 | `qt` | Planned | Placeholder directory only |
 
@@ -100,3 +100,17 @@ Included skills:
 - `arcgis-swift-troubleshooting`
 
 See `plugins/swift/README.md` for plugin-specific guidance and example prompts.
+
+### Kotlin plugin
+
+The Kotlin plugin lives at `plugins/kotlin`.
+
+Included skills:
+
+- `arcgis-kotlin-solution-setup`
+- `arcgis-kotlin-map-ui`
+- `arcgis-kotlin-auth-licensing`
+- `arcgis-kotlin-offline-workflows`
+- `arcgis-kotlin-troubleshooting`
+
+See `plugins/kotlin/README.md` for plugin-specific guidance and example prompts.

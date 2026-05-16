@@ -46,6 +46,26 @@
       },
       "homepage": "https://developers.arcgis.com/swift/",
       "license": "MIT"
+    },
+    {
+      "name": "kotlin",
+      "description": "Agent skills for ArcGIS Maps SDK for Kotlin setup, Jetpack Compose map UI work, auth, offline workflows, and troubleshooting.",
+      "version": "0.1.0",
+      "source": "./plugins/kotlin",
+      "category": "developer-tools",
+      "tags": [
+        "arcgis",
+        "kotlin",
+        "android",
+        "jetpack-compose",
+        "gradle",
+        "gis"
+      ],
+      "author": {
+        "name": "Copilot"
+      },
+      "homepage": "https://developers.arcgis.com/kotlin/",
+      "license": "MIT"
     }
   ]
 }
