@@ -2,7 +2,7 @@
 
 This repository is structured as a **multi-plugin marketplace** so it can grow into a family of agent plugins for different ArcGIS Maps SDKs.
 
-Today it publishes the **.NET**, **Swift**, **Kotlin**, **Qt**, and **Flutter** plugins.
+Today it publishes the **.NET**, **Swift**, **Kotlin**, **Qt**, **Flutter**, and **JavaScript** plugins.
 
 It now includes marketplace manifests for:
 
@@ -59,6 +59,7 @@ plugins/swift/                         Published Swift plugin
 plugins/kotlin/                        Published Kotlin plugin
 plugins/flutter/                       Published Flutter plugin
 plugins/qt/                            Published Qt plugin
+plugins/js/                            Published JavaScript plugin
 ```
 
 ## Published plugins
@@ -70,6 +71,7 @@ plugins/qt/                            Published Qt plugin
 | `kotlin` | Available | Skills for Android apps using ArcGIS Maps SDK for Kotlin |
 | `flutter` | Available | Skills for Flutter apps using ArcGIS Maps SDK for Flutter |
 | `qt` | Available | Skills for Qt Quick/QML and Widgets apps using ArcGIS Maps SDK for Qt |
+| `js` | Available | Skills for web apps, frameworks, bundlers, and map components using ArcGIS Maps SDK for JavaScript |
 
 ## Plugin details
 
@@ -142,3 +144,17 @@ Included skills:
 - `arcgis-flutter-troubleshooting`
 
 See `plugins/flutter/README.md` for plugin-specific guidance and example prompts.
+
+### JavaScript plugin
+
+The JavaScript plugin lives at `plugins/js`.
+
+Included skills:
+
+- `arcgis-js-solution-setup`
+- `arcgis-js-framework-integration`
+- `arcgis-js-map-ui`
+- `arcgis-js-auth-access`
+- `arcgis-js-troubleshooting`
+
+See `plugins/js/README.md` for plugin-specific guidance and example prompts.

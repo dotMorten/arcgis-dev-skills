@@ -3,50 +3,131 @@
   "owner": {
     "name": "Copilot"
   },
-  "metadata": {
-    "description": "Marketplace for Copilot CLI plugins covering ArcGIS Maps SDKs across multiple platforms.",
-    "version": "0.1.0"
-  },
+  "description": "Marketplace for agent plugins covering ArcGIS Maps SDKs across multiple platforms.",
+  "version": "0.1.0",
   "plugins": [
     {
       "name": "dotnet",
-      "description": "Copilot CLI skills for ArcGIS Maps SDK for .NET setup, map UI work, auth, offline workflows, and troubleshooting.",
+      "description": "Agent skills for ArcGIS Maps SDK for .NET setup, map UI work, auth, offline workflows, and troubleshooting.",
       "version": "0.1.0",
-      "license": "MIT",
+      "source": "./plugins/dotnet",
+      "category": "developer-tools",
+      "tags": [
+        "arcgis",
+        "dotnet",
+        "wpf",
+        "winui",
+        "maui",
+        "gis"
+      ],
+      "author": {
+        "name": "Copilot"
+      },
       "homepage": "https://developers.arcgis.com/net/",
-      "source": "./plugins/dotnet"
+      "license": "MIT"
     },
     {
       "name": "swift",
       "description": "Agent skills for ArcGIS Maps SDK for Swift setup, SwiftUI and UIKit map UI work, auth, offline workflows, and troubleshooting.",
       "version": "0.1.0",
-      "license": "MIT",
+      "source": "./plugins/swift",
+      "category": "developer-tools",
+      "tags": [
+        "arcgis",
+        "swift",
+        "swiftui",
+        "ios",
+        "mac-catalyst",
+        "visionos",
+        "gis"
+      ],
+      "author": {
+        "name": "Copilot"
+      },
       "homepage": "https://developers.arcgis.com/swift/",
-      "source": "./plugins/swift"
+      "license": "MIT"
     },
     {
       "name": "kotlin",
       "description": "Agent skills for ArcGIS Maps SDK for Kotlin setup, Jetpack Compose map UI work, auth, offline workflows, and troubleshooting.",
       "version": "0.1.0",
-      "license": "MIT",
+      "source": "./plugins/kotlin",
+      "category": "developer-tools",
+      "tags": [
+        "arcgis",
+        "kotlin",
+        "android",
+        "jetpack-compose",
+        "gradle",
+        "gis"
+      ],
+      "author": {
+        "name": "Copilot"
+      },
       "homepage": "https://developers.arcgis.com/kotlin/",
-      "source": "./plugins/kotlin"
+      "license": "MIT"
     },
     {
       "name": "qt",
       "description": "Agent skills for ArcGIS Maps SDK for Qt setup, Qt Quick and Widgets map UI work, auth, offline workflows, and troubleshooting.",
       "version": "0.1.0",
-      "license": "MIT",
+      "source": "./plugins/qt",
+      "category": "developer-tools",
+      "tags": [
+        "arcgis",
+        "qt",
+        "qml",
+        "qt-quick",
+        "qt-widgets",
+        "c++",
+        "gis"
+      ],
+      "author": {
+        "name": "Copilot"
+      },
       "homepage": "https://developers.arcgis.com/qt/",
-      "source": "./plugins/qt"
+      "license": "MIT"
     },
     {
       "name": "flutter",
       "description": "Agent skills for ArcGIS Maps SDK for Flutter setup, widget map UI work, auth, offline workflows, and troubleshooting.",
       "version": "0.1.0",
-      "license": "MIT",
+      "source": "./plugins/flutter",
+      "category": "developer-tools",
+      "tags": [
+        "arcgis",
+        "flutter",
+        "dart",
+        "android",
+        "ios",
+        "gis"
+      ],
+      "author": {
+        "name": "Copilot"
+      },
       "homepage": "https://developers.arcgis.com/flutter/",
-      "source": "./plugins/flutter"
+      "license": "MIT"
+    },
+    {
+      "name": "js",
+      "description": "Agent skills for ArcGIS Maps SDK for JavaScript setup, framework integration, map UI work, access configuration, and troubleshooting.",
+      "version": "0.1.0",
+      "source": "./plugins/js",
+      "category": "developer-tools",
+      "tags": [
+        "arcgis",
+        "javascript",
+        "typescript",
+        "web",
+        "npm",
+        "vite",
+        "gis"
+      ],
+      "author": {
+        "name": "Copilot"
+      },
+      "homepage": "https://developers.arcgis.com/javascript/",
+      "license": "MIT"
     }
   ]
 }

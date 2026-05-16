@@ -1,0 +1,21 @@
+{
+  "name": "js",
+  "description": "Agent skills for ArcGIS Maps SDK for JavaScript setup, framework integration, map UI work, authentication, and troubleshooting.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Copilot"
+  },
+  "license": "MIT",
+  "homepage": "https://developers.arcgis.com/javascript/",
+  "keywords": [
+    "arcgis",
+    "javascript",
+    "typescript",
+    "web",
+    "npm",
+    "vite",
+    "gis"
+  ],
+  "category": "developer-productivity",
+  "skills": "skills/"
+}
