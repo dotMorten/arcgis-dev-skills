@@ -1,0 +1,21 @@
+{
+  "name": "arcgis-maps-sdk-dotnet",
+  "description": "Copilot CLI skills for ArcGIS Maps SDK for .NET setup, map UI work, auth, offline workflows, and troubleshooting.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Copilot"
+  },
+  "license": "MIT",
+  "homepage": "https://developers.arcgis.com/net/",
+  "keywords": [
+    "arcgis",
+    "dotnet",
+    "wpf",
+    "winui",
+    "maui",
+    "gis",
+    "copilot-cli"
+  ],
+  "category": "developer-productivity",
+  "skills": "skills/"
+}

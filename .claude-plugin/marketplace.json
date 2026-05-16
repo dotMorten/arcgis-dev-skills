@@ -1,0 +1,30 @@
+{
+  "name": "arcgis-maps-sdk-plugins",
+  "owner": {
+    "name": "Copilot"
+  },
+  "description": "Marketplace for agent plugins covering ArcGIS Maps SDKs across multiple platforms.",
+  "version": "0.1.0",
+  "plugins": [
+    {
+      "name": "arcgis-maps-sdk-dotnet",
+      "description": "Agent skills for ArcGIS Maps SDK for .NET setup, map UI work, auth, offline workflows, and troubleshooting.",
+      "version": "0.1.0",
+      "source": "./plugins/arcgis-maps-sdk-dotnet",
+      "category": "developer-tools",
+      "tags": [
+        "arcgis",
+        "dotnet",
+        "wpf",
+        "winui",
+        "maui",
+        "gis"
+      ],
+      "author": {
+        "name": "Copilot"
+      },
+      "homepage": "https://developers.arcgis.com/net/",
+      "license": "MIT"
+    }
+  ]
+}

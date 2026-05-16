@@ -1,0 +1,20 @@
+{
+  "name": "arcgis-maps-sdk",
+  "interface": {
+    "displayName": "ArcGIS Maps SDK"
+  },
+  "plugins": [
+    {
+      "name": "arcgis-maps-sdk-dotnet",
+      "source": {
+        "source": "local",
+        "path": "./plugins/arcgis-maps-sdk-dotnet"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}

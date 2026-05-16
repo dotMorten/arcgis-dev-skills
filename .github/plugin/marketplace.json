@@ -1,0 +1,20 @@
+{
+  "name": "arcgis-maps-sdk-plugins",
+  "owner": {
+    "name": "Copilot"
+  },
+  "metadata": {
+    "description": "Marketplace for Copilot CLI plugins covering ArcGIS Maps SDKs across multiple platforms.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "arcgis-maps-sdk-dotnet",
+      "description": "Copilot CLI skills for ArcGIS Maps SDK for .NET setup, map UI work, auth, offline workflows, and troubleshooting.",
+      "version": "0.1.0",
+      "license": "MIT",
+      "homepage": "https://developers.arcgis.com/net/",
+      "source": "./plugins/arcgis-maps-sdk-dotnet"
+    }
+  ]
+}
