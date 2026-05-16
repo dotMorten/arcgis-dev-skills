@@ -20,6 +20,23 @@ Use the matrix in `platform-package-matrix.md`.
 
 Prefer the current repo's ArcGIS package major version if one already exists. For greenfield work, prefer the latest stable ArcGIS Maps SDK for .NET line requested by the user or already established by the solution.
 
+## Environment initialization
+
+Reference `environment-initialization.md`.
+
+When the task includes startup wiring, do not stop at package installation. Cover where ArcGIS environment configuration should live:
+
+- **.NET MAUI**: prefer `builder.UseArcGISRuntime(config => ...)` in `MauiProgram.cs`
+- **WPF / WinUI / other non-MAUI .NET apps**: prefer `ArcGISRuntimeEnvironment.Initialize(config => ...)` in the app startup path
+
+Use these startup hooks for configuration such as:
+
+- authentication setup
+- HTTP behavior
+- app-wide environment settings
+
+If the task also includes sign-in, keep the environment initialization path and the `AuthenticationManager` path discoverable and close together.
+
 ## Setup process
 
 1. Identify the app type and target framework.
@@ -28,13 +45,14 @@ Prefer the current repo's ArcGIS package major version if one already exists. Fo
    - view and view model structure
    - configuration sources such as `appsettings.json`, user secrets, environment variables, or MAUI platform config
 3. Add the correct NuGet package and keep versions consistent across ArcGIS packages.
-4. Create the smallest end-to-end integration that proves the SDK is wired correctly:
+4. Initialize the ArcGIS environment in the correct startup hook for the target app type.
+5. Create the smallest end-to-end integration that proves the SDK is wired correctly:
    - `MapView` or `SceneView`
    - a map or scene instance
    - a sensible basemap
    - initial viewpoint if needed
-5. If credentials are required, route them through the app's normal configuration system.
-6. If the repository uses MVVM, keep view-specific interactions in the view layer and move application state to view models or services.
+6. If credentials are required, route them through the app's normal configuration system.
+7. If the repository uses MVVM, keep view-specific interactions in the view layer and move application state to view models or services.
 
 ## Behavioral rules
 
@@ -47,6 +65,7 @@ Prefer the current repo's ArcGIS package major version if one already exists. Fo
 ## Common deliverables
 
 - add ArcGIS packages to a `.csproj`
+- add `UseArcGISRuntime(config => ...)` in MAUI or `ArcGISRuntimeEnvironment.Initialize(config => ...)` elsewhere
 - introduce a first `MapView` or `SceneView`
 - wire the map from an existing view model or page model
 - migrate from placeholder map content to a real ArcGIS basemap
