@@ -8,7 +8,7 @@ Use this skill when the user is debugging or stabilizing an ArcGIS Maps SDK for 
 
 ## Grounding with samples
 
-When symptoms involve API usage, lifecycle, toolkit controls, auth, or offline jobs, search the local sample index with `arcgis-dotnet-search` run from the root of this specific plugin:
+When symptoms involve API usage, lifecycle, toolkit controls, auth, or offline jobs, search the local sample index with `arcgis-dotnet-search` run from the marketplace root of this plugin:
 
 ```powershell
 dotnet run --project src\tools\arcgis-dotnet-search\arcgis-dotnet-search.csproj -- search "<symptom or API>" --platform winui

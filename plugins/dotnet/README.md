@@ -98,6 +98,7 @@ dotnet run --project src\tools\arcgis-dotnet-search\arcgis-dotnet-search.csproj 
 ```
 
 Use it to ground implementation choices in real ArcGIS sample code before writing map, auth, offline, or toolkit UI changes.
+The project path above is relative to this marketplace's root. For example %LOCALAPPDATA%\copilot\marketplaces\https---github-com-dotMorten-arcgis-dev-skills\
 
 ## Example prompts
 
