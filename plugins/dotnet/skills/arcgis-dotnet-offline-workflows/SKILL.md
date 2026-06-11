@@ -8,7 +8,7 @@ Use this skill when the request involves **offline GIS behavior**.
 
 ## Grounding with samples
 
-Before implementing an offline pattern, search the local sample index when `arcgis-dotnet-search` is available:
+Before implementing an offline pattern, search the local sample index with `arcgis-dotnet-search`:
 
 ```powershell
 dotnet run --project src\tools\arcgis-dotnet-search\arcgis-dotnet-search.csproj -- search "offline map sync geodatabase" --source runtime

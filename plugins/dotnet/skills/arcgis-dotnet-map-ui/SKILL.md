@@ -8,7 +8,7 @@ Use this skill when the task centers on **map experience behavior** inside an Ar
 
 ## Grounding with samples
 
-Before choosing APIs or toolkit controls, search the local sample index when `arcgis-dotnet-search` is available:
+Before choosing APIs or toolkit controls, search the local sample index `arcgis-dotnet-search`:
 
 ```powershell
 dotnet run --project src\tools\arcgis-dotnet-search\arcgis-dotnet-search.csproj -- search "<feature>" --platform winui

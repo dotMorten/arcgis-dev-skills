@@ -8,7 +8,7 @@ Use this skill when the task is about **project setup**, **SDK adoption**, or **
 
 ## Grounding with samples
 
-Before creating the first map or scene, search the local sample index when `arcgis-dotnet-search` is available:
+Before creating the first map or scene, search the local sample index with `arcgis-dotnet-search`:
 
 ```powershell
 dotnet run --project src\tools\arcgis-dotnet-search\arcgis-dotnet-search.csproj -- search "display map" --platform wpf
