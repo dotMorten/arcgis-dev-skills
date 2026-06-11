@@ -8,11 +8,11 @@ Use this skill when the task centers on **map experience behavior** inside an Ar
 
 ## Grounding with samples
 
-Before choosing APIs or toolkit controls, search the local sample index `arcgis-dotnet-search` run from the marketplace root of this plugin:
+Before choosing APIs or toolkit controls, search the local sample index `arcgis-dotnet-search` located relative to this skill:
 
 ```powershell
-dotnet run --project src\tools\arcgis-dotnet-search\arcgis-dotnet-search.csproj -- search "<feature>" --platform winui
-dotnet run --project src\tools\arcgis-dotnet-search\arcgis-dotnet-search.csproj -- get <id>
+dotnet run --project ..\..\arcgis-dotnet-search\arcgis-dotnet-search.csproj -- search "<feature>" --platform winui
+dotnet run --project ..\..\arcgis-dotnet-search\arcgis-dotnet-search.csproj -- get <id>
 ```
 
 Search terms that work well include feature nouns and workflows such as `identify popup`, `graphics overlay`, `scene layer`, `basemap gallery`, `legend`, `floor filter`, and `geometry editor`.

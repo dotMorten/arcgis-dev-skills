@@ -8,12 +8,12 @@ Use this skill when the request involves **offline GIS behavior**.
 
 ## Grounding with samples
 
-Before implementing an offline pattern, search the local sample index with `arcgis-dotnet-search` run from the marketplace root of this plugin:
+Before implementing an offline pattern, search the local sample index with `arcgis-dotnet-search` located relative to this skill:
 
 ```powershell
-dotnet run --project src\tools\arcgis-dotnet-search\arcgis-dotnet-search.csproj -- search "offline map sync geodatabase" --source runtime
-dotnet run --project src\tools\arcgis-dotnet-search\arcgis-dotnet-search.csproj -- search "offline workflows" --source demo
-dotnet run --project src\tools\arcgis-dotnet-search\arcgis-dotnet-search.csproj -- get <id>
+dotnet run --project ..\..\arcgis-dotnet-search\arcgis-dotnet-search.csproj -- search "offline map sync geodatabase" --source runtime
+dotnet run --project ..\..\arcgis-dotnet-search\arcgis-dotnet-search.csproj -- search "offline workflows" --source demo
+dotnet run --project ..\..\arcgis-dotnet-search\arcgis-dotnet-search.csproj -- get <id>
 ```
 
 Use runtime samples for focused API usage and demo apps for full lifecycle structure.

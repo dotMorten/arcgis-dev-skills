@@ -90,15 +90,14 @@ Then inside Copilot CLI:
 
 ## Sample search tool
 
-This repository includes `src\tools\arcgis-dotnet-search`, a small CLI that searches embedded ArcGIS Maps SDK for .NET runtime samples, toolkit sample apps, and demo apps.
+This repository includes `.\arcgis-dotnet-search`, a small CLI that searches embedded ArcGIS Maps SDK for .NET runtime samples, toolkit sample apps, and demo apps.
 
 ```powershell
-dotnet run --project src\tools\arcgis-dotnet-search\arcgis-dotnet-search.csproj -- search "identify feature popup" --platform winui
-dotnet run --project src\tools\arcgis-dotnet-search\arcgis-dotnet-search.csproj -- get runtime-winui-wmsidentify
+dotnet run --project .\arcgis-dotnet-search\arcgis-dotnet-search.csproj -- search "identify feature popup" --platform winui
+dotnet run --project .\arcgis-dotnet-search\arcgis-dotnet-search.csproj -- get runtime-winui-wmsidentify
 ```
 
 Use it to ground implementation choices in real ArcGIS sample code before writing map, auth, offline, or toolkit UI changes.
-The project path above is relative to this marketplace's root. For example %LOCALAPPDATA%\copilot\marketplaces\https---github-com-dotMorten-arcgis-dev-skills\
 
 ## Example prompts
 

@@ -8,12 +8,12 @@ Use this skill when the task involves **credentials**, **secure configuration**,
 
 ## Grounding with samples
 
-Before wiring auth, search the local sample index with `arcgis-dotnet-search` run from the marketplace root of this plugin:
+Before wiring auth, search the local sample index with `arcgis-dotnet-search` located relative to this skill:
 
 ```powershell
-dotnet run --project src\tools\arcgis-dotnet-search\arcgis-dotnet-search.csproj -- search "oauth sign in authentication" --source runtime
-dotnet run --project src\tools\arcgis-dotnet-search\arcgis-dotnet-search.csproj -- search "maui signin" --source demo
-dotnet run --project src\tools\arcgis-dotnet-search\arcgis-dotnet-search.csproj -- get <id>
+dotnet run --project ..\..\arcgis-dotnet-search\arcgis-dotnet-search.csproj -- search "oauth sign in authentication" --source runtime
+dotnet run --project ..\..\arcgis-dotnet-search\arcgis-dotnet-search.csproj -- search "maui signin" --source demo
+dotnet run --project ..\..\arcgis-dotnet-search\arcgis-dotnet-search.csproj -- get <id>
 ```
 
 Prefer these samples for host-specific OAuth and credential persistence details, then adapt secret storage to the target repository.
