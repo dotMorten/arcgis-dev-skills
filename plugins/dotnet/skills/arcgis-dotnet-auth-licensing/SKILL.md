@@ -6,6 +6,18 @@ license: MIT
 
 Use this skill when the task involves **credentials**, **secure configuration**, or **licensing** for an ArcGIS Maps SDK for .NET app.
 
+## Grounding with samples
+
+Before wiring auth, search the local sample index when `arcgis-dotnet-search` is available:
+
+```powershell
+dotnet run --project src\tools\arcgis-dotnet-search\arcgis-dotnet-search.csproj -- search "oauth sign in authentication" --source runtime
+dotnet run --project src\tools\arcgis-dotnet-search\arcgis-dotnet-search.csproj -- search "maui signin" --source demo
+dotnet run --project src\tools\arcgis-dotnet-search\arcgis-dotnet-search.csproj -- get <id>
+```
+
+Prefer these samples for host-specific OAuth and credential persistence details, then adapt secret storage to the target repository.
+
 ## Primary objectives
 
 1. Choose the lightest authentication approach that satisfies the task.

@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <AssemblyName>arcgis-dotnet-search</AssemblyName>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <PublishAot>true</PublishAot>
+    <InvariantGlobalization>true</InvariantGlobalization>
+
+    <Authors>dotMorten</Authors>
+    <Product>arcgis-dotnet-search</Product>
+    <Description>Search embedded ArcGIS Maps SDK for .NET samples, toolkit samples, and demos.</Description>
+    <RepositoryUrl>https://github.com/dotMorten/arcgis-dev-skills</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageTags>arcgis;dotnet;samples;wpf;winui;maui;search;aot</PackageTags>
+  </PropertyGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Data\samples.json" LogicalName="samples.json" />
+  </ItemGroup>
+</Project>

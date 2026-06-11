@@ -6,6 +6,18 @@ license: MIT
 
 Use this skill when the task is about **project setup**, **SDK adoption**, or **first-use integration** for ArcGIS Maps SDK for .NET.
 
+## Grounding with samples
+
+Before creating the first map or scene, search the local sample index when `arcgis-dotnet-search` is available:
+
+```powershell
+dotnet run --project src\tools\arcgis-dotnet-search\arcgis-dotnet-search.csproj -- search "display map" --platform wpf
+dotnet run --project src\tools\arcgis-dotnet-search\arcgis-dotnet-search.csproj -- search "scene view" --platform maui
+dotnet run --project src\tools\arcgis-dotnet-search\arcgis-dotnet-search.csproj -- get <id>
+```
+
+Use the matching platform sample as the baseline for namespaces, startup initialization, and `MapView`/`SceneView` setup.
+
 ## Goals
 
 1. Confirm the target UI stack before editing: **WPF**, **WinUI 3**, or **.NET MAUI**.

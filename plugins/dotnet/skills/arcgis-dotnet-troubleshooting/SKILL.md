@@ -6,6 +6,17 @@ license: MIT
 
 Use this skill when the user is debugging or stabilizing an ArcGIS Maps SDK for .NET app.
 
+## Grounding with samples
+
+When symptoms involve API usage, lifecycle, toolkit controls, auth, or offline jobs, search the local sample index when `arcgis-dotnet-search` is available:
+
+```powershell
+dotnet run --project src\tools\arcgis-dotnet-search\arcgis-dotnet-search.csproj -- search "<symptom or API>" --platform winui
+dotnet run --project src\tools\arcgis-dotnet-search\arcgis-dotnet-search.csproj -- get <id>
+```
+
+Compare the failing code to the closest working sample before changing unrelated rendering or navigation code.
+
 ## Investigation priorities
 
 1. Reproduce the symptom in the smallest relevant flow.
