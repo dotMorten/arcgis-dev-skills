@@ -16,5 +16,10 @@
     "gis"
   ],
   "category": "developer-productivity",
-  "skills": "skills/"
+  "skills": "skills/",
+  "mcpServers": {
+    "arcgis-devexp": {
+      "url": "https://devexp-mcp.afd.geocloud.com/mcp"
+    }
+  }
 }
