@@ -8,7 +8,7 @@ Use this skill when the task involves **credentials**, **secure configuration**,
 
 ## Grounding with samples
 
-Before wiring auth, search the local sample index with `arcgis-dotnet-search`:
+Before wiring auth, search the local sample index with `arcgis-dotnet-search` run from the plugin root:
 
 ```powershell
 dotnet run --project src\tools\arcgis-dotnet-search\arcgis-dotnet-search.csproj -- search "oauth sign in authentication" --source runtime
