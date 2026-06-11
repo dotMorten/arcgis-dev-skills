@@ -6,6 +6,8 @@ license: MIT
 
 Use this skill when the task is about **project setup**, **SDK adoption**, or **first-use integration** for ArcGIS Maps SDK for .NET.
 
+For ArcGIS and Esri Developer documentation lookups, follow `..\..\mcp-developer-docs-guidance.md`. Prefer the `net-sdk` focus area unless the user asks for a different Esri developer technology.
+
 ## Grounding with samples
 
 Before creating the first map or scene, search the local sample index with `arcgis-dotnet-search` located relative to this skill:

@@ -6,6 +6,8 @@ license: MIT
 
 Use this skill when the task centers on **map experience behavior** inside an ArcGIS Maps SDK for .NET application.
 
+For ArcGIS and Esri Developer documentation lookups, follow `..\..\mcp-developer-docs-guidance.md`. Prefer the `net-sdk` focus area unless the user asks for a different Esri developer technology.
+
 ## Grounding with samples
 
 Before choosing APIs or toolkit controls, search the local sample index `arcgis-dotnet-search` located relative to this skill:

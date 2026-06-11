@@ -99,6 +99,10 @@ dotnet run --project .\arcgis-dotnet-search\arcgis-dotnet-search.csproj -- get r
 
 Use it to ground implementation choices in real ArcGIS sample code before writing map, auth, offline, or toolkit UI changes.
 
+## Esri Developer docs MCP server
+
+The plugin includes the `arcgis-devexp` MCP server. The .NET skills reference `.\mcp-developer-docs-guidance.md`, which tells agents to use `search_esri_developer_docs` for ArcGIS and Esri Developer documentation lookups, prefer the `net-sdk` focus area for most .NET work, and ask the required clarification question when the target Esri SDK, API, product, technology, or capability is unclear.
+
 ## Example prompts
 
 ```text

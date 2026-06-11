@@ -6,6 +6,8 @@ license: MIT
 
 Use this skill when the request involves **offline GIS behavior**.
 
+For ArcGIS and Esri Developer documentation lookups, follow `..\..\mcp-developer-docs-guidance.md`. Prefer the `offline-mapping-apps` focus area for offline documentation and `net-sdk` for .NET SDK API usage.
+
 ## Grounding with samples
 
 Before implementing an offline pattern, search the local sample index with `arcgis-dotnet-search` located relative to this skill:

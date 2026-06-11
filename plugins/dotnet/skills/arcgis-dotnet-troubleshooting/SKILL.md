@@ -6,6 +6,8 @@ license: MIT
 
 Use this skill when the user is debugging or stabilizing an ArcGIS Maps SDK for .NET app.
 
+For ArcGIS and Esri Developer documentation lookups, follow `..\..\mcp-developer-docs-guidance.md`. Prefer the `net-sdk` focus area unless the symptom is specifically about auth, offline, portal/data services, location services, or spatial analysis.
+
 ## Grounding with samples
 
 When symptoms involve API usage, lifecycle, toolkit controls, auth, or offline jobs, search the local sample index with `arcgis-dotnet-search` located relative to this skill:

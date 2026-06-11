@@ -6,6 +6,8 @@ license: MIT
 
 Use this skill when the task involves **credentials**, **secure configuration**, or **licensing** for an ArcGIS Maps SDK for .NET app.
 
+For ArcGIS and Esri Developer documentation lookups, follow `..\..\mcp-developer-docs-guidance.md`. Prefer the `security-and-authentication` focus area for auth-specific documentation and `net-sdk` for most .NET SDK documentation.
+
 ## Grounding with samples
 
 Before wiring auth, search the local sample index with `arcgis-dotnet-search` located relative to this skill:
